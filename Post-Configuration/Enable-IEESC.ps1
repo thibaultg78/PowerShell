@@ -10,5 +10,5 @@ function Enable-IEESC() {
 	Set-ItemProperty -Path $AdminKey -Name “IsInstalled” -Value 1
 	Set-ItemProperty -Path $UserKey -Name “IsInstalled” -Value 1
 	Stop-Process -Name Explorer
-	Write-Log "IE Enhanced Security Configuration (ESC) has been active." $LogInfo
+	Write-Host "IE Enhanced Security Configuration (ESC) has been active." $LogInfo
 }
