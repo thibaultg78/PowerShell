@@ -13,7 +13,7 @@
 	
 	<Site_Configuration>
 	
-		<XD7Site>FRFARMPRD01</XD7Site>
+		<XD7Site>FARM_NAME</XD7Site>
 		<FullAdminGroup>DMN\CITRIX-ADMINS</FullAdminGroup>
 		<ROAdminGroup>DMN\CITRIX-ROADMINS</ROAdminGroup>
 		<HelpDeskGroup>DMN\CITRIX-HELPDESK</HelpDeskGroup>
