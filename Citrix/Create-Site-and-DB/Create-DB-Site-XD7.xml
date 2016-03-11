@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <Database_Configuration>
+	
+		<DatabaseServer>SERVER</DatabaseServer>
+		<DatabaseName_Site>XD7-SITE</DatabaseName_Site>
+		<DatabaseName_Logging>XD7-LOG</DatabaseName_Logging>
+		<DatabaseName_Monitor>XD7-MON</DatabaseName_Monitor>
+		<DatabaseUser>DMN\SVC_ACCOUNT</DatabaseUser>
+		<DatabasePassword>Password</DatabasePassword>
+		
+	</Database_Configuration>
+	
+	<Site_Configuration>
+	
+		<XD7Site>FRFARMPRD01</XD7Site>
+		<FullAdminGroup>DMN\CITRIX-ADMINS</FullAdminGroup>
+		<ROAdminGroup>DMN\CITRIX-ROADMINS</ROAdminGroup>
+		<HelpDeskGroup>DMN\CITRIX-HELPDESK</HelpDeskGroup>
+
+	</Site_Configuration>
+
+</configuration>
