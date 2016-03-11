@@ -13,5 +13,5 @@ function Set-TimeZoneFR([string]$timezone = "Romance Standard Time") {
 	$process.StartInfo.FileName = "tzutil.exe" 
 	$process.StartInfo.Arguments = "/s `"$TimeZone`"" 
 	$process.Start() | Out-Null
-	Write-Host "Fuseau horaire configure avec succes sur(UTC+1) - France/Paris" $LogOK
+	Write-Host "Fuseau horaire configure avec succes sur(UTC+1) - France/Paris"
 }
