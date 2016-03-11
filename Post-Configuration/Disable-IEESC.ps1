@@ -10,5 +10,5 @@ function Disable-IEESC() {
 	Set-ItemProperty -Path $AdminKey -Name “IsInstalled” -Value 0
 	Set-ItemProperty -Path $UserKey -Name “IsInstalled” -Value 0
 	Stop-Process -Name Explorer
-	Write-Log "IE Enhanced Security Configuration (IE ESC) est desactive" $LogInfo
+	Write-Host "IE Enhanced Security Configuration (IE ESC) est desactive"
 }
