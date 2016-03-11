@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <Lic_Config>
+	
+	<LicenseServer>10.0.0.21</LicenseServer>
+	<LicenseServer_LicensingModel>Concurrent</LicenseServer_LicensingModel>
+	<LicenseServer_ProductCode>MPS</LicenseServer_ProductCode>
+	<LicenseServer_ProductEdition>ENT</LicenseServer_ProductEdition>
+			
+	</Lic_Config>
+
+</configuration>
