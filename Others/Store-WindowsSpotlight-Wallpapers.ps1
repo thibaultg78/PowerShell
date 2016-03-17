@@ -201,8 +201,10 @@ foreach ($wallpaper in $images)
     else
     {
         Write-Everywhere "$wallpaper is a Portrait - Moved for Phone usage"
-        Move-Item -Path $target/$wallpaper.jpg -Destination $target_phone
-        Write-Everywhere "$wallpaper has been moved for Phone !"
+        if ((Test-Path $target/$wallpaper.jpg) -eq $true) {
+            Remove-Item -Path $target/$wallpaper.jpg
+        }
+
     }
 
 }
