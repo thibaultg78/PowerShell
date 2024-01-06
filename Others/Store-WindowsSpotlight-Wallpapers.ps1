@@ -7,6 +7,8 @@ cls
 # Function that will generate a log file for debug use (and outputs in the console)
 # $WriteFile & $WriteHost variables can be customized if needed
 ################################################################################################
+# More details on the following link : https://akril.net/recuperer-les-images-de-windows-spotlight-dans-windows-10-en-powershell/
+################################################################################################
 $me = $env:username
 $pathLogFile = "C:\Users\$me\Dropbox\PERSO\POWERSHELL\Windows Spotlight\WindowsSpotlight_LogExecutionScript.log"
 [bool]$WriteFile = $true # You can switch this to $false if you don't want to output in the log file
