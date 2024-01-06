@@ -1,6 +1,6 @@
 #################################################
 # 2013-04-07 - TGI
-# Downloaded on http://blog.akril.net
+# Downloaded on https://akril.net
 # Free to use as you want
 #################################################
 
